@@ -1,10 +1,12 @@
+/* TAG SELECTORS */
+
 body {
   background-color: #dae1e7;
 }
 hr {
+  border-color: black;
   border-style: none;
   border-top-style: dotted;
-  border-color: black;
   border-width: 5px;
   width: 20%;
 }
@@ -23,4 +25,27 @@ h2 {
 
 h3 {
   color: black;
+}
+
+/* CLASS SELECTORS */
+
+.cheese {
+  background-color: green;
+}
+
+.shroom {
+  background-color: black;
+}
+
+.dumpling {
+  background-color: purple;
+}
+
+/* ID SELECTORS */
+#myname {
+  color: blue;
+}
+
+#me {
+  border-radius: 100%;
 }
